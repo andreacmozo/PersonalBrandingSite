@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Andrea Mozo</title>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+
+  <style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+    }
+  </style>
+</head>
+<body>
+<div class="jumbotron @jumbotron-bg">
+  <h1>
+    <img src="/Users/andrea/Documents/5003/amozo_website/images/andreamozo.png" height="64px" width="50px">
+    About Me
+  </h1>
+    <p style="center">I love to learn. I love to design. I love to play games.</p>
+</div>
+
+<div class="panel">
+<div class="panel-body">
+    <p>
+        <a class="btn btn-lg grey-background white fontsize @nav-link-padding;" href="index.html" role="button">
+          home <span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+        <a class="btn btn-lg grey-background white fontsize @nav-link-padding; " href="portfolio.html" role="button">
+          portfolio <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></a>
+        <a class="btn btn-lg grey-background white fontsize @nav-link-padding;" href="resume.html" role="button">
+          resume <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
+        <a class="btn btn-lg grey-background white fontsize @nav-link-padding;" href="https://www.andreamozo.com" role="button">
+          grad school blog <span class="glyphicon glyphicon-education" aria-hidden="true"></span></a></p>
+      </div>
+    </div>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item">
+          <img src="/Users/andrea/Documents/5003/amozo_website/images/seymour_papert.jpg" alt="Learner">
+          <div class="carousel-caption">
+        <h3>Learner</h3>
+        <p>I think about thinking about making, designing, and learning.</p>
+        </div>
+        </div>
+
+        <div class="item active">
+          <img src="/Users/andrea/Documents/5003/amozo_website/images/tia_mo_Globaloria.jpg" alt="Globalorian">
+          <div class="carousel-caption">
+          <h3>Globalorian</h3>
+          <p>I mentor and manage a team who teach students how to code through game design.</p>
+        </div>
+        </div>
+
+        <div class="item">
+          <img src="/Users/andrea/Documents/5003/amozo_website/images/andreamozo_berlin.jpg" alt="World Traveler">
+          <div class="carousel-caption">
+          <h3>World Traveler</h3>
+          <p>My goal is to travel as many places as I can before I die.</p>
+        </div>
+        </div>
+
+        <div class="item">
+          <img src="/Users/andrea/Documents/5003/amozo_website/images/hike_emampanda.jpg" alt="Wife">
+          <div class="carousel-caption">
+          <h3>Wifey</h3>
+          <p>My best adventures are always with Esteban and my pup, Panda.</p>
+        </div>
+        </div>
+
+        <div class="item">
+          <img src="/Users/andrea/Documents/5003/amozo_website/images/am_musoccer.jpg" alt="Former D1 Athlete">
+          <div class="carousel-caption">
+          <h3>Soccer Player</h3>
+          <p>I used to play division 1 soccer for Monmouth University.</p>
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  <p id= "footer">&copy; iDontPlayGames</p>
+</body>
+</html>
